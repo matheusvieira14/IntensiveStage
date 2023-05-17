@@ -4,9 +4,13 @@ body{
     box-sizing: border-box;
 }
 
+:root{
+    font-size:62.5%;
+}
+
 header{
     width: 100%;
-    height: 679px;
+    height: 67.9rem;
 }
 
 .content{
@@ -24,8 +28,8 @@ header{
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 900;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 3.2rem;
+    line-height: 4.0rem;
     color: #B52184;
 }
 
@@ -33,18 +37,18 @@ header{
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 25px;
     color: #312D64;
 }
 
 .contentLeft button {
-    width: 60px;
-    height: 105px;
+    width: 6rem;
+    height: 10.5rem;
     border: none;
     background: none;
     border: 3px solid #B52184;
-    border-radius:760px;
+    border-radius:76.0rem;
 }
 
 .contentLeft button:hover {
@@ -53,13 +57,13 @@ header{
 }
 
 .contentLeft button img {
-    width: 30px;
-    height: 45px;
+    width: 3rem;
+    height: 4.5rem;
 }
 
 .contentRight img{
-    width: 364px;
-    height: 370px;
+    width: 36.4rem;
+    height: 37.0rem;
 }
 
 main{
@@ -67,39 +71,39 @@ main{
 }
 
 #sectionOne{
-    padding: 40px;
+    padding: 4rem;
     background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
 }
 
 #sectionOne .box{
-    height: 337px;
+    height: 33.7rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 26px;
-    border-radius: 20px;
+    padding: 2.6rem;
+    border-radius: 2rem;
     background: white;
 }
 
 #sectionOne .box:nth-child(1){
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 #sectionOne .box:nth-child(2){
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 #sectionOne .box img{
-    width: 80px;
-    height: 80px;
+    width: 8rem;
+    height: 8rem;
 }
 
 #sectionOne .box h1{
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 900;
-    font-size: 30px;
-    line-height: 37px;
+    font-size: 3rem;
+    line-height: 3.7rem;
     color: #B52184;
 }
 
@@ -107,14 +111,14 @@ main{
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1.6rem;
+    line-height: 2rem;
     color: #312D64;
 }
 
 #sectionTwo{
     width: 100%;
-    height:565px;
+    height:56.5rem;
     text-align: center;
 }
 
@@ -123,8 +127,8 @@ main{
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 900;
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 3.2rem;
+    line-height: 4rem;
     color: #B52184;  
 }
 
@@ -133,48 +137,48 @@ main{
  }
 
 form{
-    padding: 40px;
+    padding: 4rem;
 }
 
 form div i{
-    font-size: 20px;
+    font-size: 2rem;
     color: #B52184;
-    padding-left: 10px; 
+    padding-left: 1rem; 
 }
 
 form div{
    display: flex;
    border: 2px solid #312D64;
-   border-radius: 10px;
+   border-radius: 1rem;
    align-items: center;
-   gap: 10px;
-   margin-bottom: 20px;
+   gap: 1rem;
+   margin-bottom: 2rem;
 }
 
 form div input{
     width: 100%;
-    height: 32px;
+    height: 3.2rem;
     outline: none;
     border: none;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 ::placeholder{
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 100%;
     color: #312D64;
 }
 
 textarea{
     width: 100%;
-    height: 90px;
+    height: 9rem;
     outline: none;
-    border-radius: 10px;
+    border-radius: 1rem;
     border: none;
-    padding: 10px;
+    padding: 1rem;
 }
 
 #buttonForm {
@@ -182,9 +186,9 @@ textarea{
 }
 
 #buttonForm button{
-    width: 151px;
-    height: 45px;
-    border-radius: 16px;
+    width: 15.1rem;
+    height: 4.5rem;
+    border-radius: 1.6rem;
     border: none;
     color: white;
     background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
@@ -192,22 +196,22 @@ textarea{
 
 footer{
     width: 100%;
-    height: 78px;
+    height: 7.8rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 2.0rem;
+    line-height: 2.4rem;
     color: #FFFFFF;
     background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
 }
 
 @media (min-width: 1000px) {
     header{
-        height: 836px;
+        height: 83.6rem;
     }
 
     .content{
@@ -218,7 +222,7 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-top: 235px;
+        margin-top: 23.5rem;
     }
     
     .contentLeft {
@@ -226,51 +230,51 @@ footer{
     }
     
     .contentLeft h1{ 
-        font-size: 58px;
+        font-size: 5.8rem;
         line-height: 0;
     }
     
     .contentLeft p{
-        font-size: 32px;
+        font-size: 3.2rem;
         line-height: 0;
     }
     
     .contentLeft button {
-       margin-top: 179px;
+       margin-top: 17.9rem;
     }
     
     .contentRight img{
-        width: 720px;
-        height: 730px;
+        width: 72.0rem;
+        height: 73.0rem;
     }
     
     #sectionOne{
         display: flex;
-        gap: 20px;
-        padding: 40px 40px 0;
+        gap: 2rem;
+        padding: 4rem 4rem 0;
     }
     
     #sectionOne .box{
-        height: 448px;
-        padding: 32px;
-        border-radius: 24px;
+        height: 44.8rem;
+        padding: 3.2rem;
+        border-radius: 2.4rem;
     }
     
     #sectionOne .box img{
-        width: 97px;
-        height: 97px;
+        width: 9.7rem;
+        height: 9.7rem;
     }
     
     #sectionOne .box h1{
-        font-size: 36px;
+        font-size: 3.6rem;
     }
     
     #sectionOne .box p{
-        font-size: 20px;
+        font-size: 2rem;
     }
     
     #sectionTwo{
-        height:612px;
+        height:61.2rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -285,20 +289,20 @@ footer{
         font-family: 'Mulish';
         font-style: normal;
         font-weight: 900;
-        font-size: 42px;
-        line-height: 40px;
+        font-size: 4.2rem;
+        line-height: 4rem;
         color: #B52184; 
     }
     
     form{
-        width: 796px;
+        width: 79.6rem;
     }
     
     form div input{
-        height: 42px;
+        height: 4.2rem;
     }
     
     textarea{
-        height: 100px;
+        height: 10rem;
     }
 }
